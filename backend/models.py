@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Float, Enu
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
-from .database import Base
+from database import Base
 
 # --- ENUMS ---
 class RequestType(str, enum.Enum):
