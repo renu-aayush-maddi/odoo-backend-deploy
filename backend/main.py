@@ -3,7 +3,9 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session, joinedload
-from . import models, database
+# from . import models, database
+import models
+import database
 from pydantic import BaseModel, EmailStr
 from typing import Optional, List
 from datetime import datetime
